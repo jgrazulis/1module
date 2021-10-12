@@ -1,0 +1,27 @@
+"Hello World".upcase
+=> "HELLO WORLD"
+"Hello World".include?("Hello") # include is a method and # "Hello" is an argument
+# use methods to pass additional info into arguments
+# use parentheses to pass arguments
+# parentheses are optional irb
+=> true
+## Methods
+# downcase = method, dot calls method
+# <object> = <variable>.<method_name>
+# sending a command through string/variable/object
+greeting = "Hello World".downcase
+=> "hello world"
+#greeting = variable; = calls variable
+greeting = "hello world"
+# Variable is a label/name/placeholder/identifier FOR an Object
+# Object is data that the variable is referencing
+# Object is a thing (noun)
+# Methods are like verbs
+# Methods are messages passed through objects
+
+## Return Values
+# Return Value is the last line
+# Printing is not the same as returning
+# Printing is outputting to the terminal for human eyes to read
+# Returning is returning to use in code 
+# End result or output of a method
