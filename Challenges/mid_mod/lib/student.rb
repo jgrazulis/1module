@@ -13,7 +13,6 @@ class Student
   end
 
   def grade
-    (@scores.sum)/(@scores.length)
-    # require "pry"; binding.pry
+    (@scores.sum.to_f)/(@scores.length)
   end
 end

@@ -28,9 +28,8 @@ describe 'scores' do
     student = Student.new({name: "Morgan", age: 21})
     student.log_score(89)
     student.log_score(78)
-    # student.grade
 
-    expect(student.grade).to eq(83) # should be 83.5?
+    expect(student.grade).to eq(83.5) # should be 83.5?
+    end
   end
-end
 end
